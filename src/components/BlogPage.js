@@ -12,7 +12,7 @@ import AnchorComponent from '../subComponents/Anchor'
 import { useState } from 'react'
 import { useEffect } from 'react'
 import BigTitle from '../subComponents/BigTitle'
-import { animate, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 
 

@@ -4,7 +4,7 @@ export const Blogs = [
         name:"Build Website with ReactJS, Styled-components and GSAP for Scrolling Animations",
         tags:["react","gsap","styled-components"],
         date:"13 May, 2021",
-        imgSrc:"C:\Users\HP\OneDrive\Desktop\My Certificates\Fundamental Algorithms_ Design and Analysis.jpg",
+        imgSrc:"",
         link:"https://drive.google.com/file/d/1Ns5cIo77fzt0GTNk13f40gUezTqEOEZA/view?usp=sharing"
     },
     {
