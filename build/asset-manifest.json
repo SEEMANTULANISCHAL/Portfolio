@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/static/js/main.b07e322c.js",
+    "static/media/u-said-it-v13-1167.mp3": "/static/media/u-said-it-v13-1167.949cee7ea4a6ad9499db.mp3",
+    "static/media/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg": "/static/media/patrick-tomasso-Oaqk7qqNh_c-unsplash.8ca90014fb6ce5980110.jpg",
+    "static/media/Bitmoji4jpg-removebg-preview (2).png": "/static/media/Bitmoji4jpg-removebg-preview (2).e8a2155b106993fc1893.png",
+    "static/media/Bitmoji1-removebg-preview (1).png": "/static/media/Bitmoji1-removebg-preview (1).960f8eec728d3add0042.png",
+    "index.html": "/index.html",
+    "main.b07e322c.js.map": "/static/js/main.b07e322c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b07e322c.js"
+  ]
+}
