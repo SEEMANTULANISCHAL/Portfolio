@@ -158,9 +158,9 @@ const Main = () => {
               click={+click}
               target="_blank"
               onClick={() =>
-                window.open("mailto:hareeshprogrammer@gmail.com", "_blank")
+                window.open("mailto:nischal200216@gmail.com", "_blank")
               }
-              to={{ pathname: "mailto:hareeshprogrammer@gmail.com" }}
+              to={{ pathname: "mailto:nischal200216@gmail.com" }}
             >
           <motion.h2
           initial={{
