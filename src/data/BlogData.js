@@ -1,19 +1,19 @@
 export const Blogs = [
     {
         id:1,
-        name:"Build Website with ReactJS, Styled-components and GSAP for Scrolling Animations",
-        tags:["react","gsap","styled-components"],
-        date:"13 May, 2021",
-        imgSrc:"",
+        name:"NPTEL - Programming in C",
+        tags:["C","Program","Code"],
+        date:"8 week course procted exam",
+        imgSrc:"https://mite.ac.in/wp-content/uploads/2020/01/nptel-mite.jpg",
         link:"https://drive.google.com/file/d/1Ns5cIo77fzt0GTNk13f40gUezTqEOEZA/view?usp=sharing"
     },
     {
         id:2,
-        name:"How to create React Hamburger Menu using Styled-Components",
-        tags:["react","styled-components"],
-        date:"5 July, 2021",
-        imgSrc:"https://drive.google.com/uc?id=1ze3-2R7I6ipeelgrIPuM-dQj0_mumtVr",
-        link:"https://codebucks.hashnode.dev/react-hamburger-menu"
+        name:"INFOSYS - Java Programming ",
+        tags:["Java","program","code"],
+        date:"8 week course offerd by Infosys",
+        imgSrc:"https://www.infosys.com/content/dam/infosys-web/en/global-resource/18/springboard-logo.png",
+        link:"https://drive.google.com/file/d/1_-jlKXR5rNScQO7B7uOwdqjXHBYKRRIm/view?usp=sharing"
     },
     {
         id:3,
