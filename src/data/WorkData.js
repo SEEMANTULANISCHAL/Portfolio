@@ -5,7 +5,7 @@ export const Work = [
         description:"This is my first website, which I have created by cloning stackOverflow.",
         tags:["HTML","CSS","JavaScript"],
         
-        demo:"",
+        demo:"https://github.com/SEEMANTULANISCHAL/stack-overflow-clone.git",
         github:"https://github.com/SEEMANTULANISCHAL/stack-overflow-clone.git"
     },
     {
@@ -14,7 +14,7 @@ export const Work = [
         description:"I have trained my system on a number of disasters so that every calamity that occurs in the future can be predicted.",
         tags:["Pandas","Scikit-Learn", "NumPy"],
         
-        demo:"",
+        demo:"https://github.com/SEEMANTULANISCHAL/Disaster-Prediction-using-ML.git",
         github:"https://github.com/SEEMANTULANISCHAL/Disaster-Prediction-using-ML.git"
         
     },
@@ -24,7 +24,7 @@ export const Work = [
         description:"Learn4Growth is a collaborative learning application developed to address the challenges that students have when seeking solutions to their queries.",
         tags:["Java","XML","PHP"],
         
-        demo:"",
+        demo:"https://github.com/SEEMANTULANISCHAL/Learn4Growth_Android_Application.git",
         github:"https://github.com/SEEMANTULANISCHAL/Learn4Growth_Android_Application.git"
     },
     {
@@ -42,7 +42,7 @@ export const Work = [
         description:"Developed an e-commerece website to create bridge between the consumers and farmers.",
         tags:["react","Node","Mongo"],
         
-        demo:"",
+        demo:"https://github.com/SEEMANTULANISCHAL/AgroMart-Final.git",
         github:"https://github.com/SEEMANTULANISCHAL/AgroMart-Final.git"
         
     },
@@ -52,7 +52,7 @@ export const Work = [
         description:"A software that I have developed for the Larsen and Toubro company  which empowers administrators to effectively track employees' activities.",
         tags:["C#","Visual Studio","SQL"],
         
-        demo:"",
+        demo:"https://github.com/SEEMANTULANISCHAL/System_Monitoring_Employee_Management.git",
         github:"https://github.com/SEEMANTULANISCHAL/System_Monitoring_Employee_Management.git"
         
     },
