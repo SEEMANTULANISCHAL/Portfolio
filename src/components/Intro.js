@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import {motion} from 'framer-motion'
-import Me from '../assets/Images/pic_img.webp'
+import Me from '../assets/Images/Bitmoji4jpg-removebg-preview (2).png'
 
 
 const Box = styled(motion.div)`

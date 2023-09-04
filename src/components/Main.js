@@ -1,6 +1,7 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
 import PowerButton from '../subComponents/PowerButton'
+import { motion } from "framer-motion";
 import LogoComponent from '../subComponents/LogoComponent'
 import Socialicons from '../subComponents/Socialicons'
 import { NavLink } from 'react-router-dom'
@@ -153,36 +154,110 @@ const Main = () => {
               <span>Click here</span>
           </Center>
 
-        <Contact targrt="_blank" to={{pathname:"mailto:nischal200216@gmail.com"}}>
-          <h2>
+          <Contact
+              click={+click}
+              target="_blank"
+              onClick={() =>
+                window.open("mailto:hareeshprogrammer@gmail.com", "_blank")
+              }
+              to={{ pathname: "mailto:hareeshprogrammer@gmail.com" }}
+            >
+          <motion.h2
+          initial={{
+            y: -200,
+            transition: { type: "spring", duration: 1.5, delay: 1 },
+          }}
+          animate={{
+            y: 0,
+            transition: { type: "spring", duration: 1.5, delay: 1 },
+          }}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          
+          >
             Connect with me..
-          </h2>
+          </motion.h2>
         </Contact>
         <Certifications to="/certifications">
-          <h2>
+          <motion.h2
+          initial={{
+            y: -200,
+            transition: { type: "spring", duration: 1.5, delay: 1 },
+          }}
+          animate={{
+            y: 0,
+            transition: { type: "spring", duration: 1.5, delay: 1 },
+          }}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          >
             Certifications
-          </h2>
+          </motion.h2>
         </Certifications>
         <Resume href="https://drive.google.com/file/d/1xc-uHMWsG9f_V23UCyad-58-Bdis050u/view?usp=sharing" target="_blank" click={click}>
-          <h2>
+          <motion.h2
+          initial={{
+            y: -200,
+            transition: { type: "spring", duration: 1.5, delay: 1 },
+          }}
+          animate={{
+            y: 0,
+            transition: { type: "spring", duration: 1.5, delay: 1 },
+          }}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          >
             Resume
-          </h2>
+          </motion.h2>
         </Resume>
         <Projects to="/projects" click={click}>
-          <h2>
+          <motion.h2
+          initial={{
+            y: -200,
+            transition: { type: "spring", duration: 1.5, delay: 1 },
+          }}
+          animate={{
+            y: 0,
+            transition: { type: "spring", duration: 1.5, delay: 1 },
+          }}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          >
             Projects
-          </h2>
+          </motion.h2>
         </Projects>
         <BottomBar>
           <About to="/about" click={click}>
-            <h2>
+            <motion.h2
+            initial={{
+              y: 200,
+              transition: { type: "spring", duration: 1.5, delay: 1 },
+            }}
+            animate={{
+              y: 0,
+              transition: { type: "spring", duration: 1.5, delay: 1 },
+            }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            >
               About.
-            </h2>
+            </motion.h2>
           </About>
           <Skills to="/Skills">
-            <h2>
+            <motion.h2
+            initial={{
+              y: 200,
+              transition: { type: "spring", duration: 1.5, delay: 1 },
+            }}
+            animate={{
+              y: 0,
+              transition: { type: "spring", duration: 1.5, delay: 1 },
+            }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            >
               My Skills.
-            </h2>
+            </motion.h2>
           </Skills>
 
         </BottomBar>

@@ -1,59 +1,59 @@
 export const Work = [
     {
         id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
+        name:"Stack Overflow Clone",
+        description:"This is my first website, which I have created by cloning stackOverflow.",
+        tags:["HTML","CSS","JavaScript"],
         
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        demo:"",
+        github:"https://github.com/SEEMANTULANISCHAL/stack-overflow-clone.git"
     },
     {
         id:2,
-        name:"Job listing website",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
+        name:"Disaster Prediction using Machine Learning",
+        description:"I have trained my system on a number of disasters so that every calamity that occurs in the future can be predicted.",
+        tags:["Pandas","Scikit-Learn", "NumPy"],
         
-        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
+        demo:"",
+        github:"https://github.com/SEEMANTULANISCHAL/Disaster-Prediction-using-ML.git"
         
     },
     {
         id:3,
-        name:"Dev.to Clone",
-        description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-        tags:["react","api","sass"],
+        name:"Learn 4 Growth",
+        description:"Learn4Growth is a collaborative learning application developed to address the challenges that students have when seeking solutions to their queries.",
+        tags:["Java","XML","PHP"],
         
-        demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
+        demo:"",
+        github:"https://github.com/SEEMANTULANISCHAL/Learn4Growth_Android_Application.git"
     },
     {
         id:4,
-        name:"Sidebar Menu",
-        description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-        tags:["react","styledComponents","react-router"],
+        name:"Mr. Doctor Application",
+        description:"A cool looking website incorporated with python tkinker model to predict disease of a patient.",
+        tags:["HTML","JavaScript","tkinker"],
         
-        demo:"https://react-sidebar.vercel.app/",
-        github:"https://github.com/codebucks27/react-sidebar"
+        demo:"https://seemantulanischal.github.io/MR.DOCTOR-APPLICATION/",
+        github:"https://github.com/SEEMANTULANISCHAL/MR.DOCTOR-APPLICATION.git"
        
     },{
         id:5,
-        name:"Todo App(React + Redux)",
-        description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags:["react","redux","framer-motion"],
+        name:"AgroMart",
+        description:"Developed an e-commerece website to create bridge between the consumers and farmers.",
+        tags:["react","Node","Mongo"],
         
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
+        demo:"",
+        github:"https://github.com/SEEMANTULANISCHAL/AgroMart-Final.git"
         
     },
     {
         id:6,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags:["react","react-router","css"],
+        name:"System Monitoring Employee Management",
+        description:"A software that I have developed for the Larsen and Toubro company  which empowers administrators to effectively track employees' activities.",
+        tags:["C#","Visual Studio","SQL"],
         
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
+        demo:"",
+        github:"https://github.com/SEEMANTULANISCHAL/System_Monitoring_Employee_Management.git"
         
     },
     

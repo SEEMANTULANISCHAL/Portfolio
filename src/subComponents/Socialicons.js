@@ -2,6 +2,7 @@ import React from 'react';
 import { DarkTheme } from '../components/Themes';
 import styled from 'styled-components';
 import { Facebook, Github, LinkedIn, Twitter } from '../components/AllSvgs';
+import { motion } from 'framer-motion';
 
 const Icons = styled.div`
   display: flex;
@@ -17,7 +18,7 @@ const Icons = styled.div`
   }
 `;
 
-const Line = styled.span`
+const Line = styled(motion.span)`
   width: 2px;
   height: 8rem;
   background-color: ${props =>
@@ -27,7 +28,7 @@ const Line = styled.span`
 const Socialicons = props => {
   return (
     <Icons>
-      <div>
+      <motion.div>
         <a
           style={{ color: 'inherit' }}
           href="https://www.linkedin.com/in/nischal-seemantula-104a46205/"
@@ -42,8 +43,8 @@ const Socialicons = props => {
             }
           />
         </a>
-      </div>
-      <div>
+      </motion.div>
+      <motion.div>
         <a
           style={{ color: 'inherit' }}
           href="https://github.com/SEEMANTULANISCHAL"
@@ -58,8 +59,8 @@ const Socialicons = props => {
             }
           />
         </a>
-      </div>
-      <div>
+      </motion.div>
+      <motion.div>
         <a
           style={{ color: 'inherit' }}
           href="https://facebook.com/NischalSeemantula"
@@ -74,8 +75,8 @@ const Socialicons = props => {
             }
           />
         </a>
-      </div>
-      <div>
+      </motion.div>
+      <motion.div>
         <a
           style={{ color: 'inherit' }}
           href="https://twitter.com/Nischalseemantu"
@@ -90,9 +91,22 @@ const Socialicons = props => {
             }
           />
         </a>
-      </div>
+      </motion.div>
 
-      <Line color={props.theme} />
+      <Line color={props.theme} 
+      
+      initial={
+        {
+          height:0
+        }
+      }
+      animate={{
+        height: '8rem'
+      }}
+      transition={{
+        type:'spring',duration:1, delay:0.8
+      }}
+      />
     </Icons>
   );
 };
