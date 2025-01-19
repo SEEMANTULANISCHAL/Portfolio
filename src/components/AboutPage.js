@@ -73,12 +73,11 @@ const AboutPage = () => {
         
         </Spaceman> 
         <Main>
-        Hey! 👋 I'm a Frontend Developer in the final year of my Computer Science degree. I'm passionate about crafting beautiful web experiences, turning ideas into reality on the screen.
+        Driven Machine Learning Engineer with 2+ years of experience in building software applications, training models to empower businesses. At SUNY, I streamlined the maintenance of a 10,000+ alumni database, improving process efficiency by 22%. 
 <br/><br/>
-But here's the twist—I'm also a tech explorer. I find Machine Learning fascinating; it's like teaching computers to do cool tricks. 🤖
+At LTIMindtree, I optimized Large Language Model buffer time, reducing it from 25 to 11 seconds, which increased customer usage by 10% and downloads by 5%. At Larsen & Toubro, I developed a system management application that cut downtime by 20% and reduced security breaches by 50%. 
 <br/><br/>
-And guess what's next on my adventure list? Pursuing a master's in Computer Science to dive deeper into tech's secrets.😉
-
+I’m passionate about solving complex problems through Machine Learning and software development. 
 
 
         </Main> 
