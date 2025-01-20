@@ -85,35 +85,34 @@ const MySkillsPage = () => {
   <ParticleComponent theme='light'/>
         <Main>
           <Title>
-            <Design width={40} height={40} /> Frontend Developer
+            <Design width={40} height={40} /> Data Scientist
           </Title>
           <Description>
-            It's fun making websites sing and dance with the symphony of HTML, CSS, and JS 😄💻.
+          Unlocking the power of data to uncover actionable insights and build predictive solutions. From managing vast datasets to deploying machine learning models.🚀📊
           </Description>
           <Description>
-            <strong>I love to play with</strong><br/>
-            <p>Html, Css, Js, React, Sass, Bootstrap, MongoDB</p>
+            <strong>I love to work with:</strong><br/>
+            <p>Python, R, SQL, Pandas, NumPy, Scikit-learn, TensorFlow, Tableau</p>
           </Description>
           <Description>
             <strong>Tools</strong><br/>
-            <p>VScode, Github, Codepen, Figma etc</p>
+            <p>Jupyter Notebook, PyCharm, Docker, Kubernetes, AWS, GCP</p>
           </Description>
         </Main>
-
         <Main>
           <Title>
             <Develope width={40} height={40} /> Software Developer
           </Title>
           <Description>
-          Making the digital world a better place, one 'Hello, World!' at a time.
+          Building scalable and efficient software solutions that solve real-world problems. With expertise in full-stack development and system optimization. 💻🔧
           </Description>
           <Description>
             <strong>I love to code in</strong><br/>
-            <p>C, C++, Python, Java, C#, MySQL</p>
+            <p>C++, Java, Python, C#, MongoDB, Express.js, Node.js, React</p>
           </Description>
           <Description>
             <strong>Tolols</strong><br/>
-            <p>Visual Studio, Eclipse, Jupyter, Pycharm </p>
+            <p>Visual Studio, Eclipse, GitHub, Docker, Kubernetes, Azure </p>
               
           </Description>
           

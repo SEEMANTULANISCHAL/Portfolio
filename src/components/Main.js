@@ -158,9 +158,9 @@ const Main = () => {
               click={+click}
               target="_blank"
               onClick={() =>
-                window.open("mailto:nischal200216@gmail.com", "_blank")
+                window.open("mailto:nischalmasters24@gmail.com", "_blank")
               }
-              to={{ pathname: "mailto:nischal200216@gmail.com" }}
+              to={{ pathname: "mailto:nischalmasters24@gmail.com" }}
             >
           <motion.h2
           initial={{
@@ -194,7 +194,7 @@ const Main = () => {
             Certifications
           </motion.h2>
         </Certifications>
-        <Resume href="https://drive.google.com/file/d/1xc-uHMWsG9f_V23UCyad-58-Bdis050u/view?usp=sharing" target="_blank" click={click}>
+        <Resume href="https://drive.google.com/file/d/1yXRqgbtaoihFlWLxmivEQU7MVMz3BGHu/view?usp=sharing" target="_blank" click={click}>
           <motion.h2
           initial={{
             y: -200,
